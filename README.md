@@ -13,10 +13,8 @@ then PRESS inside the window of interest.
 ```shell
 WM_CLASS(STRING) = "org.gnome.Nautilus", "Org.gnome.Nautilus"
 ```
-SS(STRING) = "streamdeck", "Streamdeck UI"
-```
 
-### VS Code
+### VS Code - use: code
 ```shell
 WM_CLASS(STRING) = "code", "Code"
 ```
@@ -26,7 +24,7 @@ WM_CLASS(STRING) = "code", "Code"
 WM_CLASS(STRING) = "gnome-control-center", "Gnome-control-center"
 ```
 
-### Obsidian (notes)
+### Obsidian (notes) - use obsidian
 ```shell
 WM_CLASS(STRING) = "obsidian", "obsidian"
 ```
@@ -38,6 +36,7 @@ WM_CLASS(STRING) = "gnome-terminal-server", "Gnome-terminal"
 
 ### Stream Deck app - nothing works
 ```shell
-WM_CLA
+WM_CLASS(STRING) = "streamdeck", "Streamdeck UI"
+```
 
 
