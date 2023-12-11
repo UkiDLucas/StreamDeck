@@ -5,9 +5,9 @@ To learn the commands needed to open your app,
 execute the followin command,
 then PRESS inside the window of interest.
 
-'''shell
+```shell
  $ xprop | grep 'CLASS'
- '''
+```
 
 
 ### Nautilius (file browser)
