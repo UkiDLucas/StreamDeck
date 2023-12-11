@@ -9,24 +9,35 @@ then PRESS inside the window of interest.
  $ xprop | grep 'CLASS'
 ```
 
-
-### Nautilius (file browser)
+### Nautilius (file browser) use: nautilius
+```shell
 WM_CLASS(STRING) = "org.gnome.Nautilus", "Org.gnome.Nautilus"
-
-### Stream Deck app
-WM_CLASS(STRING) = "streamdeck", "Streamdeck UI"
+```
+SS(STRING) = "streamdeck", "Streamdeck UI"
+```
 
 ### VS Code
+```shell
 WM_CLASS(STRING) = "code", "Code"
+```
 
 ### Settings (previously visited)
+```shell
 WM_CLASS(STRING) = "gnome-control-center", "Gnome-control-center"
+```
 
 ### Obsidian (notes)
+```shell
 WM_CLASS(STRING) = "obsidian", "obsidian"
+```
 
-### Terminal (not really working)
+### Terminal - use: gnome-terminal (opens a new one)
+```shell
 WM_CLASS(STRING) = "gnome-terminal-server", "Gnome-terminal"
+```
 
+### Stream Deck app - nothing works
+```shell
+WM_CLA
 
 
